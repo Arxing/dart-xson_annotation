@@ -1,22 +1,4 @@
-A library for Dart developers.
+![](https://img.shields.io/badge/language-dart-orange.svg)
+![](https://img.shields.io/badge/pub-v1.0.0-blue.svg)
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:xson_annotation/xson_annotation.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+This package defines the annotations used by [xson_builder](https://pub.dev/packages/xson_builder) to generate dart json bean.

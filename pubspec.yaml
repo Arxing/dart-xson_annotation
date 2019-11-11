@@ -1,8 +1,9 @@
 name: xson_annotation
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
-# homepage: https://www.example.com
-# author: arxing <meiswind711108@gmail.com>
+description: Xson annotations that support dart json bean generation via the `xson_builder` package.
+version: 1.0.0
+homepage: https://github.com/Arxing/dart-xson_annotation
+author: Arxing <meiswind711108@gmail.com>
+pubpage: https://pub.dev/packages/xson_annotation
 
 environment:
   sdk: '>=2.4.0 <3.0.0'
