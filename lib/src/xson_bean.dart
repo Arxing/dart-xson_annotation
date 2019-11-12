@@ -1,3 +1,5 @@
+import 'property_rename_handler.dart';
+
 class XsonBean {
   /// json raw source
   final String jsonContent;
@@ -11,10 +13,14 @@ class XsonBean {
   /// all classname's suffix, default is empty
   final String classSuffix;
 
+  /// all property's name will rename via [PropertyRenameHandler] if set
+  final PropertyRenameHandler propertyRenameHandler;
+
   const XsonBean({
     this.jsonContent,
     this.jsonFilePath,
     this.rootClassName,
     this.classSuffix,
+    this.propertyRenameHandler,
   });
 }

@@ -1,0 +1,1 @@
+typedef String PropertyRenameHandler(String uniqueKey, String propertyName);
